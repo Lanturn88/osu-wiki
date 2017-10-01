@@ -1,7 +1,4 @@
 <!-- wiki -->
-[Game_Modes wikilink]: ../ "Game Modes"
-[osu! wikilink]: /wiki/Game_Modes/osu! "osu!"
-[osu!taiko wikilink]: /wiki/Game_Modes/osu!taiko/ "osu!taiko"
 [Play_Styles#osu!mania wikilink]: /wiki/Play_Styles/#osu-mania "more info can be found on Play Styles under osu!mania"
 [Co-Op wikilink]: /wiki/Game_Modifiers "more info can be found on Game Modifiers under Co-Op"
 [xK wikilink]: /wiki/Game_Modifiers "more info can be found on Game Modifiers under xK"
@@ -26,8 +23,6 @@
 [osu!mania notes image]: /wiki/shared/Mania_notes.jpg "osu!mania notes"
 [osu!mania holdnotes image]: /wiki/shared/Mania_holdnotes.jpg "osu!mania hold notes"
 [osu!mania Interface image]: /wiki/shared/Interface_mania.jpg "osu!mania Interface"
-[osu!mania key layout image]: /wiki/shared/Mania_key_layouts.jpg "osu!mania key layout"
-[osu!mania key layout2 image]: /wiki/shared/Mania_key_layouts2.jpg "osu!mania key layout (Co-Op)"
 [osu!mania editor image]: /wiki/shared/Editor_Mania.png "osu!mania-specific Editor"
 [osu!mania SSD image]: /wiki/shared/Song_Setup_Difficulty_Mania.jpg "osu!mania-specific Difficulty setup"
 [Options keyboard image]: /wiki/shared/Options_keyboard.jpg "Options Input icon, Keyboard section"
@@ -36,25 +31,18 @@
 
 # osu!mania
 
-**[Click to return to Game Modes page][Game_Modes wikilink]**
+_Main page: [Game Modes](/wiki/Game_Modes)._
 
 <!-- Uncomment the below and delete this comment if ScoreV2 is official and the whole page must be revised to fit ScoreV2 system behaviour -->
 <!-- **[Click here to visit the older version of osu!mania using deprecated ScoreV1 system](./v1 "osu!mania v1")** -->
 
 ![Gameplay of osu!mania][osu!mania Interface image]
 
-The mode has been widely used in almost all of the major rhythm games.
-It require good hand and/or leg coordination where the notes (with their quantity depending on BPM and difficulty) move on a conveyer.
-The player will have to press the correct key for that specific note in time.
-Though the game mode was originally made as an imitation of the _Beatmania_ style of playing, osu!mania allows changing the number of keys or vertically flipping the orientation of the playfield (this means that it can be made to look more like _Guitar Hero_ \[5 keys\] or _Dance Dance Revolution_ \[4 keys\] and so on).
+The concepts used in osu!mania has already been widely used in almost all of the major rhythm games. It requires good hand and/or leg coordination where the notes (with their quantity depending on BPM and difficulty) move on a conveyer. The player will have to press the correct key for that specific note in time. Though the game mode was originally made as an imitation of the _Beatmania_ style of playing, osu!mania allows changing the number of keys or vertically flipping the orientation of the playfield (this means that it can be made to look more like _Guitar Hero_ \[5 keys\] or _Dance Dance Revolution_ \[4 keys\] and so on). It is somewhat similar to [osu!taiko](/wiki/osu!taiko), but with more buttons notes moving vertically rather than moving horizontally.
 
-It is somewhat similar to [osu!taiko][osu!taiko wikilink], but with more buttons notes moving vertically rather than moving horizontally.
+## Song Selection
 
-## ![osu!mania icon][osu!mania icon link] Gameplay explanation
-
-### Song Selection
-
-To access the osu!mania game mode, press `Ctrl`+`4` at the same time.
+To switch to the osu!mania game mode, press `Ctrl` and `4` at the same time in that order.
 
 Alternatively, click on the `Mode` button and select `osu!mania`.
 
@@ -165,7 +153,9 @@ The current default key settings is based on _Symmetrical_ style.
 
 ### Normal
 
-![Default Key layouts of osu!mania (Options-&gt;Input)][osu!mania key layout image]
+![](/wiki/shared/Mania_key_layouts_left-right.png "The default left-to-right key layout style")
+
+![](/wiki/shared/Mania_key_layouts_symmetrical.png "The default symmetrical key layout style")
 
 There _used to be_ two different binding-styles, _Symmetrical_ and _Left to Right_:-
 
@@ -215,9 +205,9 @@ Key | Bindings
 
 ### Co-Op
 
-![Default Key layouts of osu!mania (Co-Op)][osu!mania key layout2 image]
+![Colour coded keyboard showing the default key layout for Co-Op](/wiki/shared/Mania_key_layouts_coop.png "The default key layout for Co-Op")
 
-The **[05 March 2015 (2015-03-05) update](http://osu.ppy.sh/p/changelog?v=b20150305)** gave osu!mania a new mod called [Co-Op][Co-Op wikilink].
+The **[05 March 2015 (2015-03-05) update](https://osu.ppy.sh/p/changelog?v=b20150305)** gave osu!mania a new mod called [Co-Op][Co-Op wikilink].
 With this mod enabled, a second different set of keys will be given along with the primary set of keys as above.
 
 _Symmetrical_ key binding for second set.
@@ -277,7 +267,7 @@ It is possible to obtain SSH or SH ranks (silver S or SS) with [Hidden][Hidden w
 
 ### Accuracy
 
-Accuracy is calculated similarly to [osu!standard][osu! wikilink] in this mode.
+Accuracy is calculated similarly to [osu!standard](/wiki/osu!standard "osu!standard") in this mode.
 
 In other words: `Accuracy = Total points of hits / (Total number of hits * 300)`
 
